@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Extension Name</key>
+    <string>Youdao-Alfred</string>
+    <key>Extension Identifier</key>
+    <string>com.cyper.youdao-alfred</string>
+    <key>Extension Description</key>
+    <string>execute YouDao-Alfred workflow with selected
+    keys</string>
+    <key>Actions</key>
+    <array>
+      <dict>
+        <key>AppleScript File</key>
+        <string>youdao-alfred.applescript</string>
+        <key>Image File</key>
+        <string>gtrans.png</string>
+        <key>Title</key>
+        <string>Youdao-Alfred</string>
+        <key>Regular Expression</key>
+        <string>(?s)^[a-zA-Z]{1,1999}$</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
